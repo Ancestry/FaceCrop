@@ -7,7 +7,7 @@ CGImage extension that utilizes Apple's Vision Framework to detect and center fa
 
 # Usage
 
-```
+```swift
 cgImage.faceCrop { [weak self] result in
     switch result {
     case .success(let cgImage):
