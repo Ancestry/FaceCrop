@@ -22,4 +22,4 @@ If you need to crop a `UIImage` - you can always access its `CGImage` by calling
 
 ===
 
-Huge thanks to Anastasios Grigoriou for his contribution to this project!
+Huge thanks to Anastasios Grigoriou for his work on this project!
