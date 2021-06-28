@@ -20,6 +20,8 @@ cgImage.faceCrop { [weak self] result in
  
 If you need to crop a `UIImage` - you can always access its `CGImage` by calling [.cgImage](https://developer.apple.com/documentation/uikit/uiimage/1624147-cgimage).
 
+For more information consider visiting [this in-depth artictle on Medium](https://medium.com/ancestry-engineering/image-face-centering-using-apples-vision-framework-3ff3954ab5cb).
+
 ===
 
 Huge thanks to Anastasios Grigoriou for his work on this project!
