@@ -17,7 +17,7 @@ public extension CGImage {
                 return
             }
             
-            guard let results = request.results else {
+            guard let results = request.results, !results.isEmpty else {
                 completion(.notFound)
                 return
             }
